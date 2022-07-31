@@ -1,0 +1,19 @@
+;@charset "sjis"
+;
+; 行頭にセミコロンでコメント
+;
+
+;
+; 設定サンプル
+;
+; <コピー元><１個以上のタブ><コピー先>[<１個以上のタブ><robocopyの追加オプション>]
+;
+; コピー元       : タブで区切っているので空白を含むパスでもダブルクオーテーションでくくる必要は無し
+;
+; コピー先       : タブで区切っているので空白を含むパスでもダブルクオーテーションでくくる必要は無し
+;
+; 追加オプション : デフォルトは /E /R:3 /W:5 /DCOPY:DAT /NP /LOG+ なのでお好きなオプションを追加してください
+;                  追加オプションの区切りはスペースでもタブでもどちらでもOKです。
+;
+; <コピー元><１個以上のタブ><コピー先>[<１個以上のタブ><robocopyの追加オプション>]
+C:\Program Files (x86)\Internet Explorer	Z:\backup\ie	/xd "C:\Program Files (x86)\Internet Explorer\en-US"	"C:\Program Files (x86)\Internet Explorer\ja-JP"
