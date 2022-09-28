@@ -1,5 +1,8 @@
 # 設定ファイルにそってrobocopyでバックアップを実行するbat
 
+Youtubeに説明動画載せてみました
+https://youtu.be/FqbArzEiU2M
+
 robocopyの日本語ログレポートのインデントがずれるのも適当に直します  
 インデントのために「コピー済み」のテキストを「COPY済み」に変更しています
 
